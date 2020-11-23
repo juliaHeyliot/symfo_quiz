@@ -1,0 +1,93 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="656" height="187" view_box="0 0 656 187"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Mon, 23 Nov 2020 07:40:32</desc>
+
+<rect id="frame" x="0" y="0" width="656" height="187" fill="#f7f7f7" stroke="none" stroke-width="0"/>
+
+<!-- Association MISSION_HAS_STEPS -->
+<line x1="48" y1="127" x2="194" y2="127" stroke="#4393c3" stroke-width="2"/>
+<text x="92" y="144.0" fill="#b2182b" font-family="Verdana" font-size="12">1,N</text>
+<line x1="332" y1="127" x2="194" y2="127" stroke="#4393c3" stroke-width="2"/>
+<text x="275" y="144.0" fill="#b2182b" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-MISSION_HAS_STEPS">
+	<path d="M 255 102 a 14 14 90 0 1 14 14 V 127 h -150 V 116 a 14 14 90 0 1 14 -14" fill="#92c5de" stroke="#92c5de" stroke-width="0"/>
+	<path d="M 269 127.0 v 11 a 14 14 90 0 1 -14 14 H 133 a 14 14 90 0 1 -14 -14 V 127.0 H 150" fill="#d1e5f0" stroke="#d1e5f0" stroke-width="0"/>
+	<rect x="119" y="102" width="150" height="50" fill="none" rx="14" stroke="#4393c3" stroke-width="2"/>
+	<line x1="119" y1="127" x2="269" y2="127" stroke="#4393c3" stroke-width="1"/>
+	<text x="126" y="119.7" fill="#000000" font-family="Verdana" font-size="12">MISSION_HAS_STEPS</text>
+</g>
+
+<!-- Association STEP_HAS_ANSWERS -->
+<line x1="332" y1="127" x2="469" y2="127" stroke="#4393c3" stroke-width="2"/>
+<text x="368" y="144.0" fill="#b2182b" font-family="Verdana" font-size="12">1,N</text>
+<line x1="611" y1="127" x2="469" y2="127" stroke="#4393c3" stroke-width="2"/>
+<text x="549" y="144.0" fill="#b2182b" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-STEP_HAS_ANSWERS">
+	<path d="M 529 102 a 14 14 90 0 1 14 14 V 127 h -148 V 116 a 14 14 90 0 1 14 -14" fill="#92c5de" stroke="#92c5de" stroke-width="0"/>
+	<path d="M 543 127.0 v 11 a 14 14 90 0 1 -14 14 H 409 a 14 14 90 0 1 -14 -14 V 127.0 H 148" fill="#d1e5f0" stroke="#d1e5f0" stroke-width="0"/>
+	<rect x="395" y="102" width="148" height="50" fill="none" rx="14" stroke="#4393c3" stroke-width="2"/>
+	<line x1="395" y1="127" x2="543" y2="127" stroke="#4393c3" stroke-width="1"/>
+	<text x="402" y="119.7" fill="#000000" font-family="Verdana" font-size="12">STEP_HAS_ANSWERS</text>
+</g>
+
+<!-- Entity STEPS -->
+<g id="entity-STEPS">
+	<g id="frame-STEPS">
+		<rect x="301" y="102" width="62" height="25" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+		<rect x="301" y="127.0" width="62" height="25" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+		<rect x="301" y="102" width="62" height="50" fill="none" stroke="#d6604d" stroke-width="2"/>
+		<line x1="301" y1="127" x2="363" y2="127" stroke="#d6604d" stroke-width="1"/>
+	</g>
+	<text x="312" y="119.7" fill="#000000" font-family="Verdana" font-size="12">STEPS</text>
+	<text x="306" y="144.8" fill="#000000" font-family="Verdana" font-size="12">question</text>
+	<line x1="306" y1="147" x2="358" y2="147" stroke="#000000" stroke-width="1"/>
+</g>
+
+<!-- Entity USER -->
+<g id="entity-USER">
+	<g id="frame-USER">
+		<rect x="298" y="9" width="68" height="25" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+		<rect x="298" y="34.0" width="68" height="43" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+		<rect x="298" y="9" width="68" height="68" fill="none" stroke="#d6604d" stroke-width="2"/>
+		<line x1="298" y1="34" x2="366" y2="34" stroke="#d6604d" stroke-width="1"/>
+	</g>
+	<text x="315" y="26.7" fill="#000000" font-family="Verdana" font-size="12">USER</text>
+	<text x="303" y="51.8" fill="#000000" font-family="Verdana" font-size="12">email</text>
+	<line x1="303" y1="54" x2="337" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="303" y="68.8" fill="#000000" font-family="Verdana" font-size="12">password</text>
+</g>
+
+<!-- Entity ANSWERS -->
+<g id="entity-ANSWERS">
+	<g id="frame-ANSWERS">
+		<rect x="575" y="93" width="72" height="25" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+		<rect x="575" y="118.0" width="72" height="43" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+		<rect x="575" y="93" width="72" height="68" fill="none" stroke="#d6604d" stroke-width="2"/>
+		<line x1="575" y1="118" x2="647" y2="118" stroke="#d6604d" stroke-width="1"/>
+	</g>
+	<text x="580" y="110.7" fill="#000000" font-family="Verdana" font-size="12">ANSWERS</text>
+	<text x="580" y="135.8" fill="#000000" font-family="Verdana" font-size="12">title</text>
+	<line x1="580" y1="138" x2="604" y2="138" stroke="#000000" stroke-width="1"/>
+	<text x="580" y="152.8" fill="#000000" font-family="Verdana" font-size="12">isCorrect</text>
+</g>
+
+<!-- Entity MISSIONS -->
+<g id="entity-MISSIONS">
+	<g id="frame-MISSIONS">
+		<rect x="9" y="76" width="78" height="25" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+		<rect x="9" y="101.0" width="78" height="77" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+		<rect x="9" y="76" width="78" height="102" fill="none" stroke="#d6604d" stroke-width="2"/>
+		<line x1="9" y1="101" x2="87" y2="101" stroke="#d6604d" stroke-width="1"/>
+	</g>
+	<text x="16" y="93.7" fill="#000000" font-family="Verdana" font-size="12">MISSIONS</text>
+	<text x="14" y="118.7" fill="#000000" font-family="Verdana" font-size="12">title</text>
+	<line x1="14" y1="121" x2="38" y2="121" stroke="#000000" stroke-width="1"/>
+	<text x="14" y="135.8" fill="#000000" font-family="Verdana" font-size="12">description</text>
+	<text x="14" y="152.8" fill="#000000" font-family="Verdana" font-size="12">countdown</text>
+	<text x="14" y="169.8" fill="#000000" font-family="Verdana" font-size="12">image</text>
+</g>
+</svg>

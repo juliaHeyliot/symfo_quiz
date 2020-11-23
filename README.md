@@ -4,4 +4,4 @@ This personnal project allows me to fool around with symfony. The assignement: c
 
 # MCD  
 
-![Mocodo MCD](/assets/Missions.svg)
+![Mocodo MCD](public/assets/images/Missions.svg)

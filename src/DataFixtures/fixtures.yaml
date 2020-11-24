@@ -1,0 +1,18 @@
+App\Entity\Missions:
+  missions_{1..50}:
+    title (unique) : '<word(2)>'
+    description : '<paragraph()>'
+    countDown : '<dateTime()>'
+    image : '<word()>'
+App\Entity\Answers:
+  answers_{1..50}:
+    title (unique) : '<word(2)>'
+    isCorrect : '<boolean()>'
+    steps : '@steps_*'
+App\Entity\Steps:
+  steps_{1..20}:
+    question : '<word(7)>'
+    missions: '@missions_*'
+    answers : '[@answers_*]'
+  
+
